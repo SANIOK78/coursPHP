@@ -1,0 +1,87 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color:blue;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.4s all;
+}
+h1:hover{
+    box-shadow: 0 2px 6px blue;
+}
+h3{
+    text-align: center;
+    padding:6px;
+    color:white;
+    font-size: 20px;
+}
+.form{    
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    padding: 20px;;
+    /* 
+    margin: 10px auto; */
+}
+input, label {display: block}
+
+input {
+    width: 400px;
+    padding: 6px;
+    font-size: 16px;
+    margin: 10px 0;   
+}
+.result{
+    color: blue;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 26px;
+}
+.btn {
+    width: 420px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.nav{
+    background-color: blueviolet;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    padding:0;
+    /* width: 100%; */
+    justify-content: center ;
+}
+li{
+    list-style: none;
+    color: white;
+    padding: 5px 16px;
+    margin: 0 16px;
+    font-size: 20px;
+    box-shadow: 0 0 6px rgb(248, 245, 245, 0.6);
+    border-radius: 6px;
+    /* transition: 0.2s all; */
+    cursor: pointer;
+}
+li:hover{
+    transform: scale(0.98);
+}
+a {
+    color: white;
+    font-size: bold;
+    text-decoration: none;
+}
+.footer{
+    background-color: blueviolet;
+    padding: 10px;  
+    margin-top: 50px;
+}

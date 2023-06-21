@@ -1,0 +1,145 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    min-height: 80vh;
+    margin: 20px auto;
+}
+.content{
+    font-size: 20px;
+    padding: 20px;
+    margin: 30px 0;
+}
+h1 {
+    font-size: 22px;
+    color:blue;
+    padding: 10px;
+    text-align:center;
+    margin: 20px 0;
+    border-radius: 6px;
+    transition: 0.4s all;
+}
+h1:hover{
+    box-shadow: 0 2px 6px blue;
+}
+h3{
+    text-align: center;
+    padding:6px;
+    color:white;
+    font-size: 20px;
+}
+h5{
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 5px;
+}
+h2{
+    color: blue;
+    font-size: 20px;
+    margin:10px 0;
+}
+.nav{
+    background-color: blueviolet;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0; 
+}
+li{
+    list-style: none;
+    color: white;
+    padding: 5px 16px;
+    margin: 10px 10px;
+    font-size: 16px;
+    box-shadow: 0 0 6px rgb(248, 245, 245, 0.6);
+    border-radius: 6px;
+    /* transition: 0.2s all; */
+    cursor: pointer;
+}
+li:hover{
+    transform: scale(0.98);
+}
+a {
+    color: white;
+    font-size: bold;
+    text-decoration: none;
+}
+.footer{
+    background-color: blueviolet;
+    padding: 10px;  
+    margin-top: 50px;
+}
+.table {
+    margin: 12px 0;
+
+}
+label {
+    font-size: 20px;
+    padding: 4px; 
+    margin-bottom: 10px;
+}
+fieldset{
+    padding:10px;
+}
+input {
+    font-size: 16px;
+    width: 100px; 
+    margin-bottom: 10px;
+    outline: blue;
+}
+option{
+    padding: 4px;
+    font-size: 16px ;
+}
+.btn{
+   background-color: blue;
+   border-radius: 8px;
+   padding: 5px 10px;
+   font-size: 14px;
+   color: white;
+   border: none;
+}
+.btn1{
+    background-color: green;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    border: none;
+ }
+.success{
+    color: green;
+}
+.warning{
+    color: orange;
+}
+.red{
+    color: red;
+}
+.gauche{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px 0;
+}
+img{
+    width: 100px;
+    padding : 16px;
+    margin-right: 20px;
+    box-shadow: 0 0 6px rgba(128, 4, 243, 0.5);
+}
+.blokInfo{
+    padding: 0 20px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.blocInfos{
+    display: flex;
+    margin: 20px;
+}
